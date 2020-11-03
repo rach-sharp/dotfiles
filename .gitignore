@@ -3,6 +3,8 @@
 
 !.config
 
+!.config/.managed
+
 # fish config
 !.config/fish
 !.config/fish/conf.d
