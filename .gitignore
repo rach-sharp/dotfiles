@@ -1,10 +1,14 @@
 *
 !.gitignore
 
-
 !.config
+
+# fish config
 !.config/fish
 !.config/fish/conf.d
 !.config/fish/functions
-!.config/fish/functions/*
-__*
+!.config/fish/functions/**
+
+.config/fish/functions/__*
+
+!.config/starship.toml
